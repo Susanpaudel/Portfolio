@@ -1,0 +1,418 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0);
+}
+.class:nth-child(2){
+  transition-delay: 200ms;
+}
+.class:nth-child(3){
+  transition-delay: 400ms;
+}
+
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: hsl(8, 95%, 57%);    /* color of the scroll thumb */  
+  }
+  body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: lightgray;        /* color of the tracking area */
+  }
+.personal_image{
+    border: 1px solid #6c757d;
+    border-radius:200px;
+    width: 410px;
+}
+.personal_image img{
+    border-radius:200px;
+    width: 410px;
+    height: 550px;
+    border: 20px solid white;
+    object-fit: cover;
+}
+.exp_icon{
+    border-radius:200px;
+    height: 275px;
+    background-color: hsl(0,0%,80%);
+    vertical-align: center;
+}
+.exp_icon img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.exp_icon:hover img{
+    filter:none;
+    animation:  shake 0.8s  ;
+}
+h1{
+    font-family:  'Amiri' !important;
+    font-size: 3rem !important;
+    line-height: 1.1 !important;
+}
+@keyframes shake{
+    0%{
+      transform: translateY(0)
+    }
+    25%{
+      transform: translateY(25px);
+    }
+      
+    50%{
+      transform: translateY(-25px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+.gmail{
+    color: #6c757d;
+    transition: hover 3s ease-in-out;
+}
+.gmail:hover{
+    color:hsl(8, 95%, 57%);
+}
+.awe{
+    color:black;
+    transition: hover 4s;
+}
+.awe:hover{
+    color:hsl(8, 95%, 57%);
+    margin-top:-1px;
+}
+.nav-link{
+    position: relative;
+    margin-bottom: 5px;
+}
+.nav-link::after{
+    content: "";
+    opacity:0;
+    transition: all 0.2s;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: hsl(8, 95%, 57%);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+}
+
+.nav-link.active::before{
+    content: "";
+    opacity:0;
+    transition: all 0.2s;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: hsl(8, 95%, 57%);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+}
+.navbar-brand img,.footer_logo img{
+  height: 80px;
+  width: 80px;
+}
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .nav-link:hover::after{
+        opacity: 0;
+    }
+   
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .nav-link:hover::after{
+        opacity: 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .navbar-brand{
+        position: absolute;
+        left:0;
+        right:0;
+        top:0px;
+        bottom: 0;
+        margin:auto;
+        text-align: center;
+        width: 130px;
+        font-size: 40px;
+    }
+    .nav-link.active::before{
+        opacity:1;
+    }
+    .nav-link:hover::after{
+        opacity: 1;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .navbar-brand{
+        position: absolute;
+        left:0;
+        right:0;
+        top:0px;
+        bottom: 0;
+        margin:auto;
+        text-align: center;
+        width: 130px;
+        font-size: 40px;
+    }
+    .nav-link.active::before{
+        opacity:1;
+    }
+    .nav-link:hover::after{
+        opacity: 1;
+    }
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .navbar-brand{
+        position: absolute;
+        left:0;
+        right:0;
+        top:0px;
+        bottom: 0;
+        margin:auto;
+        text-align: center;
+        width: 130px;
+        font-size: 40px;
+    }
+    .nav-link.active::before{
+        opacity:1;
+    }
+    .nav-link:hover::after{
+        opacity: 1;
+    }
+ }
+
+
+ .work{
+  cursor: pointer;
+ }
+ .big_circle{
+  border: 2px solid gray;
+  padding: 50px;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  border-style: dotted;
+  margin:40px;
+ }
+ .arrow{
+  font-size: 50px;
+ }
+ .big_circle h1{
+  font-size: 70px !important;
+ }
+ .call{
+  color:#000;
+ }
+ .call:hover{
+  color:hsl(8, 95%, 57%)
+ }
+
+ .icon_form{
+  position:absolute;
+  right:15px;
+  top: 8px;
+  color:gray;
+}
+.input-field{
+  position: relative;
+}
+.text-box{
+  border:2px solid gray;
+  border-radius: 5px;
+  outline:none;
+  background:none;
+  color:black;
+  width: 100%;
+  height: 2.6rem;
+  padding: 1rem 2rem;
+}
+.icon_htmlForm_reg{
+  position:absolute;
+  left:15px;
+  top: 8px;
+  color:gray;
+}
+
+.register_logo{
+  position:absolute;
+  left:15px;
+  top:8px;
+}
+
+.htmlForm-label{
+  position: absolute;
+  top:0.6rem;
+  left:1.4rem;
+  cursor: text;
+  transition: top 200ms ease-in,left 200ms ease-in,font-size 200ms ease-in;
+}
+.text-box:focus ~ .htmlForm-label,.text-box:not(:placeholder-shown).text-box:not(:focus)~.htmlForm-label{
+  top:-0.3rem;
+  left:0.5rem;
+  font-size: 10px;
+  background-color: #ffffff;
+}
+.text-box:focus{
+  border:2px solid hsl(8, 95%, 57%);
+}
+#message{
+  height: 150px;
+}
+.contact_btn button{
+  background-color: hsl(8, 95%, 57%);
+}
+
+#button {
+  display: inline-block;
+  background-color: hsl(8, 95%, 57%);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: hsl(8, 100%, 53%);
+}
+#button:active {
+  background-color: hsl(8, 100%, 53%);
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+/*photo*/
+.photo .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.photo .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.photo .heading h3 span{
+  font-weight: 100;
+}
+.photo .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.photo .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.photo .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.photo .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.photo .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 769px){
+    .photo .box{
+   flex-direction: column;
+  }
+
+.photo .box .dream{
+  width: 100%;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 643px){
+.photo .heading{
+  width: 100%;
+}
+.photo .heading h3{
+  font-size: 1em;
+
+}
+
+
+
+
+
+
+
+}
