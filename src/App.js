@@ -1,4 +1,3 @@
-import './App.css';
 import {Home} from './components/Home';
 import {
   BrowserRouter as Router,
@@ -10,6 +9,7 @@ import { Nav } from './components/Nav';
 import { Footer } from './components/Footer';
 import { Contact } from './components/Contact';
 import { Photo } from './components/Photo';
+
 function App() {
   return (
     <>
