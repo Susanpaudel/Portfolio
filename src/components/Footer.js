@@ -11,7 +11,7 @@ export const Footer = () => {
                 <p className='mb-0'><i className="fa fa-copyright me-1"></i>copy 2021 SusanPaudel. All Rights Reserved.</p>
             </div>
             <div className="col-lg-4 text-center">
-            <Link className="footer_logo" to="/"><img src={logo} alt="img"/></Link>
+            <Link className="footer_logo" to="/portfolio"><img src={logo} alt="img"/></Link>
             </div>
             <div className="col-lg-4 my-3 text-sm-center">
             <ul className="navbar-nav">

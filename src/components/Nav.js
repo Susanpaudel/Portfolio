@@ -7,14 +7,14 @@ export const Nav = () => {
     <>
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        <Link className="navbar-brand py-1" to="/"><img src={logo} alt="img"/></Link>
+        <Link className="navbar-brand py-1" to="/portfolio"><img src={logo} alt="img"/></Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                <Link className="nav-link active fw-bold" aria-current="page" to="/">Home</Link>
+                <Link className="nav-link active fw-bold" aria-current="page" to="/portfolio">Home</Link>
                 </li>
                 <li className="nav-item">
                 <Link className="nav-link fw-bold" to="/work">Work</Link>
