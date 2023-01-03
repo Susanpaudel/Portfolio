@@ -60,11 +60,11 @@ export const Hero = () => {
                 </div>
                 <div className=" py-3">
                         <p className='text-secondary'>CLIENTS ON WORLWIDE</p>
-                        <h1>+12</h1>
+                        <h1>+10</h1>
                 </div>
                 <div className=" py-3">
                         <p className='text-secondary'>PROJECTS DONE</p>
-                        <h1>100</h1>
+                        <h1>5</h1>
                 </div>
             </div>
             <div className="col-lg-12 order-1 order-md-3 order-sm-3">

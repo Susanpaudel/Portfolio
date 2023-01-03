@@ -34,21 +34,21 @@ counters.forEach((counter)=>{
             <div className="col-6 col-md-4 col-lg-2 text-center my-3">
                 <div className="exp_icon py-5">
                    <img src={htmllogo} alt="html_logo" className='img-fluid mb-4'/>
-                   <h1 id="counter" data-target="50">50%</h1>
+                   <h1 id="counter">100%</h1>
                 </div>
                 <p className='fw-bold exp_name pt-3'>HTML</p>
             </div>
             <div className="col-6 col-md-4 col-lg-2 text-center my-3">
                 <div className="exp_icon py-5">
                    <img src={bootstraplogo} alt="boostrap_logo" className='img-fluid mb-4'/>
-                   <h1>50%</h1>
+                   <h1>90%</h1>
                 </div>
                 <p className='fw-bold exp_name pt-3'>Bootstrap</p>
             </div>
             <div className="col-6 col-md-4 col-lg-2 text-center my-3">
                 <div className="exp_icon py-5">
                    <img src={figmalogo} alt="figma_logo" className='img-fluid mb-4'/>
-                   <h1>50%</h1>
+                   <h1>80%</h1>
                 </div>
                 <p className='fw-bold exp_name pt-3'>Figma</p>
             </div>
@@ -62,14 +62,14 @@ counters.forEach((counter)=>{
             <div className="col-6 col-md-4 col-lg-2 text-center my-3">
                 <div className="exp_icon py-5">
                    <img src={laravellogo} alt="laravel_logo" className='img-fluid mb-4'/>
-                   <h1>50%</h1>
+                   <h1>80%</h1>
                 </div>
                 <p className='fw-bold exp_name pt-3'>Laravel</p>
             </div>
             <div className="col-6 col-md-4 col-lg-2 text-center my-3">
                 <div className="exp_icon py-5">
                    <img src={gitlogo} alt="git_logo" className='img-fluid mb-4'/>
-                   <h1>50%</h1>
+                   <h1>100%</h1>
                 </div>
                 <p className='fw-bold exp_name pt-3'>Git Hub</p>
             </div>
