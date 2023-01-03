@@ -85,13 +85,12 @@ h1{
 .gmail:hover{
     color:hsl(8, 95%, 57%);
 }
-.awe{
+.nav-link a{
     color:black;
     transition: hover 4s;
 }
-.awe:hover{
+.nav-link a:hover{
     color:hsl(8, 95%, 57%);
-    margin-top:-1px;
 }
 .nav-link{
     position: relative;

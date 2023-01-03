@@ -16,9 +16,9 @@ export const Footer = () => {
             <div className="col-lg-4 my-3 text-sm-center">
             <ul className="navbar-nav">
             <li className="nav-item d-flex justify-content-center justify-content-lg-end">
-            <Link to='' className="ms-4 fw-bold fs-6 awe"><i className="fa-brands fa-facebook-f"></i></Link>
-            <Link to='' className="ms-4 fw-bold fs-6 awe"><i className='fab fa-viber'></i></Link>
-            <Link to='' className="ms-4 fw-bold fs-6 awe"><i className="fab fa-linkedin" aria-hidden="true"></i></Link>
+            <a href='https://www.facebook.com/susan.paudel.56' target='_blank' className="nav-link ms-4 fw-bold fs-6 awe"><i className="fa-brands fa-facebook-f"></i></a>
+            <a href='https://github.com/Susanpaudel' target='_blank' className="nav-link ms-4 fw-bold fs-6 awe"><i className='fab fa-github'></i></a>
+            <a href='https://www.linkedin.com/in/susan-paudel-5375b422a/' target='_blank' className="nav-link ms-4 fw-bold fs-6 awe"><i className="fab fa-linkedin" aria-hidden="true"></i></a>
             </li>
             </ul>
             </div>

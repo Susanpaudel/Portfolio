@@ -20,7 +20,7 @@ export const Hero = () => {
                 <div className="info py-3">
                     <p className='text-secondary'>BIOGRAPHY</p>
                     <span className='fs-5'>
-                    Work for money and design for love! I’m Susan, an Full Stack Developer based in Nepal.
+                    Work for money and development for love! I’m Susan, an Full Stack Developer based in Nepal.
                     </span>
                </div>
                <div className="contact py-3">

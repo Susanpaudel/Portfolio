@@ -20,7 +20,7 @@ export const Nav = () => {
                 <Link className="nav-link fw-bold" to="/work">Work</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link fw-bold" to="/photo">Portfolio</Link>
+                <Link className="nav-link fw-bold" to="/photo">Photo</Link>
                 </li>
                 <li className="nav-item">
                 <Link className="nav-link fw-bold" to="/contact">Contact</Link>
@@ -28,10 +28,12 @@ export const Nav = () => {
             </ul>
             
             <ul className="navbar-nav mb-2 mb-lg-0">
-            <li className="nav-item d-flex">
-            <Link to='' className="nav-link me-2 awe fw-bold"><i className="fa-brands fa-facebook-f"></i></Link>
-            <Link to='' className="nav-link me-2 awe fw-bold"><i className='fab fa-viber'></i></Link>
-            <Link to='' className="nav-link me-2 awe fw-bold"><i className="fab fa-linkedin" aria-hidden="true"></i></Link>
+            <li className="nav-item d-flex mx-0">
+           
+            <a href='https://www.facebook.com/susan.paudel.56' target='_blank' className="nav-link ms-2 awe fw-bold"><i className="fa-brands fa-facebook-f"></i></a>
+            <a href='https://github.com/Susanpaudel' target='_blank' className="nav-link ms-2 awe fw-bold"><i className="fa-brands fa-github"></i></a>
+            <a href='https://www.linkedin.com/in/susan-paudel-5375b422a/' target='_blank' className="nav-link ms-2 awe fw-bold"><i className="fab fa-linkedin" aria-hidden="true"></i></a>
+             
             </li>
             </ul>
             </div>
