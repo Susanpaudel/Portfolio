@@ -1,4 +1,6 @@
 import React from 'react'
+import img1 from '../image/work1.png'
+import img2 from '../image/work2.png'
 
 export const Work = () => {
   return (
@@ -12,10 +14,19 @@ export const Work = () => {
       <div className="row py-5">
         <div className="col-lg-3 my-3">
         <div className="card work">
-          <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" className="card-img-top" alt="img"/>
+          <img src={img1} className="card-img-top" alt="img"/>
           <div className="card-body text-center">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 className="card-title">Learning Management System</h5>
+            <p className="card-text">This project show the video recording of related subjects that need to be paid to access the video.</p>
+          </div>
+        </div>
+        </div>
+        <div className="col-lg-3 my-3">
+        <div className="card work">
+          <img src={img2} className="card-img-top" alt="img"/>
+          <div className="card-body text-center">
+            <h5 className="card-title">Online Ticket Booking System</h5>
+            <p className="card-text">This project ia about booking ticket from one city to another city at cheap price.</p>
           </div>
         </div>
         </div>
